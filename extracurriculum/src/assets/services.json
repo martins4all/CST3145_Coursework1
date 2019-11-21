@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "type": "class",
-    "title": "Introduction to Social values",
+    "type": "sport",
+    "title": "Next Talent",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit?",
-    "price": 30,
-    "area": "agriculture",
-    "length": 30,
+    "price": 20,
+    "area": "Soccer",
+    "length": 60,
     "orientation": "individual",
     "rating": 3,
     "author": {
@@ -17,7 +17,7 @@
       {
         "id": 1,
         "name": "John Doe",
-        "feedback": "Nice course. I became a better person after completing this course"
+        "feedback": "my son likes the team, his improved alot with passing the ball"
       }
     ]
   },
@@ -101,5 +101,27 @@
         "feedback": "Nice course. I became interested in technology 10minutes into the course"
       }
     ]
+  },
+  {
+    "id": 1,
+    "type": "sport",
+    "title": "Next Talent",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit?",
+    "price": 20,
+    "area": "basketball",
+    "length": 45,
+    "orientation": "individual",
+    "rating": 3,
+    "author": {
+      "firstname": "Gallick",
+      "lastname": "Ohio"
+    },
+    "review": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "feedback": "my son likes the practice club, his made new friends"
+      }
+    ] 
   }
 ]
