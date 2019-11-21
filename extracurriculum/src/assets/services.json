@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "type": "class",
+    "title": "Introduction to Social values",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit?",
+    "price": 30,
+    "area": "agriculture",
+    "length": 30,
+    "orientation": "individual",
+    "rating": 3,
+    "author": {
+      "firstname": "Gallick",
+      "lastname": "Ohio"
+    },
+    "review": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "feedback": "Nice course. I became a better person after completing this course"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "activity",
+    "title": "Using legos for AI",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit? health 1",
+    "price": 50,
+    "area": "arts",
+    "length": 60,
+    "orientation": "individual",
+    "rating": 2,
+    "author": {
+      "firstname": "Evra",
+      "lastname": "Ugomma"
+    },
+    "review": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "feedback": "Nice course. I became a better person after completing this course"
+      },
+      {
+        "id": 2,
+        "name": "Jane doe",
+        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "activity",
+    "title": "Using legos for AI",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, health 2?",
+    "price": 10,
+    "area": "health",
+    "length": 10,
+    "orientation": "individual",
+    "rating": 3,
+    "author": {
+      "firstname": "John",
+      "lastname": "Paul"
+    },
+    "review": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "feedback": "Nice course. I became a better person after completing this course"
+      },
+      {
+        "id": 2,
+        "name": "Jane doe",
+        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "class",
+    "title": "Using legos for AI ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. health 2",
+    "price": 50,
+    "area": "health",
+    "length": 40,
+    "orientation": "group",
+    "rating": 1,
+    "author": {
+      "firstname": "Ekene",
+      "lastname": "Okoli"
+    },
+    "review": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "feedback": "Nice course. I became a better person after completing this course"
+      },
+      {
+        "id": 2,
+        "name": "Jane doe",
+        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+      }
+    ]
+  }
+]
