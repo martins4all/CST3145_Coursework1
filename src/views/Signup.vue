@@ -15,7 +15,7 @@
       </div>
       <div class="card-body w-50 mt-2">
         <h5 class="card-title">{{ isLogin ? 'Welcome back' : 'Create your account' }}</h5>
-        <small v-for="error in error_msg" class="text-danger"> {{error}} </small>
+        <small v-for="error in error_msg" class="text-danger" v-bind:key="error"> {{error}} </small>
         <div class="login" v-if="isLogin">
           <div class="form-group">
             <label>Email address</label>
@@ -98,13 +98,14 @@
                     if (user.length >= 1) {
                         alert('user already exists')
                     } else {
-                        console.log('cleared');
                         //register and login user with id
                         //checks whether user is service providerlet new_user = {id :users.length + 1,type: "sp",...this.user};
-                        this.$store.commit('SET_USER', {...this.user});
-                        //persist to local storage users.push({id :users.length + 1,...this.user});
+
+                        //persist to local storage
+                        users.push({id :users.length + 1,...this.user});
                         localStorage.setItem('users', JSON.stringify(users));
-                        return this.$router.push('/dashboard');
+
+                        this.login();
                     }
                 }
             },

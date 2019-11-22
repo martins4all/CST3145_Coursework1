@@ -1,11 +1,4 @@
 <template>
-  <!--<div id="nav" class="nav">
-    <router-link to="/" class="brand">Real World Events</router-link>
-    <nav>
-      <router-link :to="{ name: 'event-list' }">List</router-link> |
-      <router-link :to="{ name: 'event-create' }">Create</router-link>
-    </nav>
-  </div>-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
     <div class="container">
       <router-link class="navbar-brand text-white" to="/">Curriculum</router-link>
@@ -19,6 +12,10 @@
           <li class="nav-item">
             <router-link class="nav-link " to="/dashboard" v-if="isAuth">Dashboard</router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link class="nav-link " to="/classes" v-if="isSP">Edit Classes</router-link>
+          </li>
   
           <li class="nav-item">
             <a style="cursor: pointer" v-if="isAuth"  class="nav-link" @click="logout">Logout</a>
@@ -31,17 +28,17 @@
 </template>
 
 <script>
-  import {mapGetters} from 'vuex'
-  
     export default {
         computed:{
           isAuth(){
             return this.$store.getters.isAuth;
+          },
+          isSP(){
+            return this.isAuth && this.$store.getters.getUser.type === "sp";
           }
         },
       methods:{
         logout(){
-          console.log('lodgout');
           this.$store.commit('UNSET_USER');
           this.$router.push('/');
         }

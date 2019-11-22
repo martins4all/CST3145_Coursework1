@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Signup from './views/Signup'
 import Dashboard from './views/Dashboard'
 import Reviews from './views/Reviews'
+import Classes from './views/Classes'
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/reviews',
       name: 'reviews',
       component: Reviews
+    },
+    {
+      path: '/classes',
+      name: 'classes',
+      component: Classes
     },
   ]
 })

@@ -12,9 +12,12 @@
           <select class="w-100 custom-select my-1" v-model="subjectArea">
             <option selected>Choose...</option>
             <option value="soccer">Soccer</option>
-            <option value="basketball">Basketball</option>
-            <option value="Language">English</option>
-            <option value="Language">French</option>
+            <option value="music">Music</option>
+            <option value="drama">Drama</option>
+            <option value="language">Language</option>
+            <option value="cooking">Cooking</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="health">Health</option>
             <option value="arts">Arts</option>
           </select>
         </div>
@@ -60,7 +63,7 @@
           </div>
         </nav>
         <div class="mt-2 row">
-          <Result v-for="(result, i) in results" :key="i" :result="result"></Result>
+          <Result v-for="(result, i) in results" :key="i" :result="result"> </Result>
         </div>
       </section>
       

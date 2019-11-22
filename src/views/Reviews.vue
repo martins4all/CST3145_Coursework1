@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-4 ">
     <ul class="list-unstyled">
-      <li class="media mb-3" v-bind="review in activites.review">
+      <li class="media mb-3" v-for-key="review in activites.review">
         <img style="width:100px; " src="@/assets/placeholder.png" class="mr-3" alt="">
         <div class="media-body">
           <h5 class="mt-0 mb-1">{{ review.name  }}</h5>
@@ -41,8 +41,8 @@
             methods:{
                 post(){
                     let services = JSON.parse(localStorage.getItem('services'));
-                    let activity = services.find(service => service.id === this.activites.id);
-                    let index = services.findIndex(service => service.id === this.activites.id);
+                    let activity = services.find((service) => service.id === this.activites.id);
+                    let index = services.findIndex((service) => service.id === this.activites.id);
 
                     //persist to store
                     this.$store.commit('SET_FEEDBACK',{
@@ -54,20 +54,17 @@
                     this.feedback = '';
 
                     //persist to localstorage
-                  //localStorage.setItem('services', )
-                  /*  services[index].review = JSON.stringify([...this.$store.getters.getReview]);
+                    services[index].review = [...this.$store.getters.getReview];
 
                     localStorage.setItem('services', JSON.stringify(services));
-                    console.log(services)*/;
                 }
             }
         }
 </script>
 
 <style>
-  .bottom {
+.bottom {
     display: flex;
-    justify-content: space-between;
-  }
-
-</style>.push(
+    justify-content:space-between;
+}
+</style>

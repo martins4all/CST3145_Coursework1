@@ -1,60 +1,62 @@
 [
   {
     "id": 1,
-    "type": "sport",
-    "title": "Next Talent",
+    "type": "class",
+    "title": "Spanish language",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit?",
-    "price": 20,
-    "area": "Soccer",
-    "length": 60,
+    "price": 30,
+    "area": "language",
+    "length": 30,
     "orientation": "individual",
     "rating": 3,
     "author": {
-      "firstname": "Gallick",
-      "lastname": "Ohio"
+      "firstname": "Martins",
+      "lastname": "Umeh",
+      "email": "martins4all2000@gmail.com"
     },
     "review": [
       {
         "id": 1,
         "name": "John Doe",
-        "feedback": "my son likes the team, his improved alot with passing the ball"
+        "feedback": "My daughter has improved alot, with how she expresses her self in spanish"
       }
     ]
   },
   {
     "id": 2,
     "type": "activity",
-    "title": "Using legos for AI",
+    "title": "Young Dream",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit? health 1",
     "price": 50,
-    "area": "arts",
+    "area": "Soccer",
     "length": 60,
     "orientation": "individual",
     "rating": 2,
     "author": {
-      "firstname": "Evra",
-      "lastname": "Ugomma"
+      "firstname": "Martins",
+      "lastname": "Umeh",
+      "email": "martins4all2000@gmail.com"
     },
     "review": [
       {
         "id": 1,
         "name": "John Doe",
-        "feedback": "Nice course. I became a better person after completing this course"
+        "feedback": "My son is more focused and physically fit "
       },
       {
         "id": 2,
         "name": "Jane doe",
-        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+        "feedback": "my daughter is more self aware and has made more friends"
       }
     ]
   },
   {
     "id": 3,
-    "type": "activity",
-    "title": "Using legos for AI",
+    "type": "Activity",
+    "title": "Swimming:Diving Pool",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, health 2?",
     "price": 10,
-    "area": "health",
+    "area": "sport",
     "length": 10,
     "orientation": "individual",
     "rating": 3,
@@ -66,62 +68,41 @@
       {
         "id": 1,
         "name": "John Doe",
-        "feedback": "Nice course. I became a better person after completing this course"
+        "feedback": "my son has mastered his fear and is a good swimmer now"
       },
       {
         "id": 2,
         "name": "Jane doe",
-        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+        "feedback": "Oh! I am so glad i allowed my daughter join, she hopes to become the best female swimmer now."
       }
     ]
   },
   {
     "id": 4,
     "type": "class",
-    "title": "Using legos for AI ",
+    "title": "English ",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. health 2",
     "price": 50,
-    "area": "health",
+    "area": "Language",
     "length": 40,
     "orientation": "group",
     "rating": 1,
     "author": {
-      "firstname": "Ekene",
-      "lastname": "Okoli"
+      "firstname": "martins",
+      "lastname": "Umeh",
+      "email": "martins4all2000@gmail.com"
     },
     "review": [
       {
         "id": 1,
         "name": "John Doe",
-        "feedback": "Nice course. I became a better person after completing this course"
+        "feedback": "Nice course. my writing and verbal skills improved"
       },
       {
         "id": 2,
         "name": "Jane doe",
-        "feedback": "Nice course. I became interested in technology 10minutes into the course"
+        "feedback": "Nice course."
       }
     ]
-  },
-  {
-    "id": 1,
-    "type": "sport",
-    "title": "Next Talent",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, fugit?",
-    "price": 20,
-    "area": "basketball",
-    "length": 45,
-    "orientation": "individual",
-    "rating": 3,
-    "author": {
-      "firstname": "Gallick",
-      "lastname": "Ohio"
-    },
-    "review": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "feedback": "my son likes the practice club, his made new friends"
-      }
-    ] 
   }
 ]
